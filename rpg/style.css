@@ -15,6 +15,7 @@
     --cor3: #662984;
 
     --fontsombria: 'Shadows Into Light', cursive;
+    --fontpadrao: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -78,12 +79,23 @@ main h2 {
     font-size: 2.1em;
     font-weight: bold;
     font-family: var(--fontsombria);
-    padding-left: 10px;
+    text-indent: 20px;
     margin: 10px 0px;
 }
 
 main h2.centralizado {
     text-align: center;
+}
+
+main h2 > a {
+    padding: 3px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+main h2 > a:hover {
+    background-image: linear-gradient(to right, var(--cor3), var(--cor2));
+    color: white;
 }
 
 main h3 {
@@ -130,6 +142,29 @@ img.imagemmedia {
 img#chave {
     height: 400px;
     width: 200px;
+}
+
+aside {
+    padding: 10px;
+    background-image: radial-gradient(circle, var(--cor3),var(--cor2));
+    border-radius: 10px;
+}
+
+aside h3 {
+    padding: 3px;
+    background-image: linear-gradient(to right, var(--cor3),var(--cor1), var(--cor3));
+    color: var(--cor2);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: var(--fontsombria);
+    text-indent: 20px;
+    text-align: center;
+    
+}
+
+aside p {
+    background-color: white;
+    text-align: justify;
 }
 
 footer {
