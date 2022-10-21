@@ -88,14 +88,15 @@ main h2.centralizado {
 }
 
 main h2 > a {
-    padding: 3px 5px;
-    border-radius: 10px;
     text-decoration: none;
 }
 
 main h2 > a:hover {
-    background-image: linear-gradient(to right, var(--cor3), var(--cor2));
-    color: white;
+    color: #dc143c;
+}
+
+ a.deusmal::after {
+    content: '\00A0\[mal]';
 }
 
 main h3 {
