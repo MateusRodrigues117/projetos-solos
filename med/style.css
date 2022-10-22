@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: var(--cor3);
+    
 }
 
 header {
@@ -36,12 +36,10 @@ main {
     margin:  auto;
     background-color: var(--cor0);
     max-width: 1000px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
 
 }
 
-main h2 {
+main  h2 {
     margin: 10px;
     color: var(--cor1);
     text-align: center;
@@ -52,9 +50,10 @@ main h2 {
 
 main ul {
     padding: 10px;
-    margin: 0px -10px;
+    margin: 0px;
     background-image: linear-gradient(to right, var(--cor0), var(--cor2));
     list-style-position: inside;
+    list-style-type: square;
     columns: 2;
   
 }
@@ -74,7 +73,8 @@ ul > li > a {
 }
 
 a:hover {
-    background-color: var(--cor2);
+    background-color: white;
+    color: var(--cor2);
 }
 
 section {
