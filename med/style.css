@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: var(--cor3);
+   
 }
 
 header {
@@ -37,11 +37,12 @@ main {
     padding: 0px;
     margin:  auto;
     max-width: 1000px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+
 
 }
 
 main  h2 {
+    padding-top: 10px;
     margin-bottom: 10px;
     color: var(--cor1);
     text-align: center;
@@ -50,16 +51,15 @@ main  h2 {
     font-family: var(--fonth2);
 }
 
-
-
 main ol {
     padding: 10px;
     margin: auto;
     max-width: 300px;
     background-image: linear-gradient(to right, var(--cor2), var(--cor0));
     list-style-position: inside;
+    list-style-type: none;
     text-align: center;
-    border-radius: 10px 0px;
+   
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
 }
 
@@ -71,9 +71,20 @@ main ol > li {
     font-family: var(--fontitens);
 }
 
+ol > li > a {
+    padding: 5px;
+    color: white;
+    background-image: radial-gradient(circle, var(--cor2), transparent);
+    text-decoration: none; 
+    border-radius: 10px;
+}
+
+li > a:hover {
+    background-image: radial-gradient(circle, white, transparent);
+    color: var(--cor2);
+}
 main ul {
     padding: 10px;
-    margin: 0px;
     text-align: center;
     background-image: linear-gradient(to right, var(--cor2), var(--cor0));
     list-style-position: inside;
