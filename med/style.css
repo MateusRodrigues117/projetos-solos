@@ -52,10 +52,10 @@ main  h2 {
 }
 
 main ol {
-    padding: 10px;
+    padding: 5px;
     margin: auto;
     max-width: 300px;
-    background-image: linear-gradient(to right, var(--cor2), var(--cor0));
+    background-image: radial-gradient(circle, var(--cor2), var(--cor0));
     list-style-position: inside;
     list-style-type: none;
     text-align: center;
@@ -72,26 +72,37 @@ main ol > li {
 }
 
 ol > li > a {
-    padding: 5px;
+    padding: 10px;
     color: white;
-    background-image: radial-gradient(circle, var(--cor2), transparent);
     text-decoration: none; 
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 li > a:hover {
-    background-image: radial-gradient(circle, white, transparent);
+    background-color: white;
     color: var(--cor2);
 }
+
+#pintado {
+    padding: 0px;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor0));
+}
+
+.branco {
+    padding: 10px;
+    background-color: white;
+}
+
 main ul {
     padding: 10px;
+    margin: auto;
+    width: 300px;
     text-align: center;
-    background-image: linear-gradient(to right, var(--cor2), var(--cor0));
+    background-image: radial-gradient(circle, var(--cor2), var(--cor0));
     list-style-position: inside;
     list-style-type: none;
-    
+    border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
-  
 }
 
 main ul > li {
