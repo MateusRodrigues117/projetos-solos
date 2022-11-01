@@ -52,6 +52,9 @@ position: relative;
     font-size: 2.2em;
 }
 
+#fabricantes p {
+    margin-top: 15px;
+}
 
 header {
     padding: 5px;
@@ -72,7 +75,7 @@ header h1 {
 
 main {
     margin: auto;
-    max-width: 800px;
+    max-width: 1000px;
     background-color: white;
 }
 
@@ -96,6 +99,11 @@ article p {
     text-align: justify;
     line-height: 1.8em;
     font-family: var(--font-padrao);
+}
+
+mark{
+    padding: 2px;
+    border-radius: 5px;
 }
 
 .pexterior {
