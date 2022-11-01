@@ -15,11 +15,43 @@
     --cor05: #400101;
 
     --font-especial: 'Bebas Neue', cursive;
+    --font-padrao: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: var(--cor03);
+    background-color: rgba(0, 0, 0, 0.849);
 }
+
+#container {
+position: relative;
+
+    height: 700px;
+
+    background-image: url(imagens/bdwallpaper3.jpg);
+    background-size: cover;
+    background-position: right top;
+
+}
+
+#conteudo {
+    padding: 10px 20px;
+    max-width: 800px;
+
+    background-image: radial-gradient(circle,black, black, transparent);
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: white;
+
+    font-family: var(--font-especial);
+    font-size: 2.2em;
+}
+
 
 header {
     padding: 5px;
@@ -39,8 +71,45 @@ header h1 {
 }
 
 main {
-    padding: 20px;
     margin: auto;
     max-width: 800px;
     background-color: white;
+}
+
+article {
+    padding: 0px 20px;
+}
+
+article h2 {
+    padding: 5px 20px;
+    margin: 0px -20px 10px -20px;
+
+    background-image: linear-gradient(to right, var(--cor04),var(--cor05));
+    color: var(--cor02);
+
+    font-family: var(--font-especial);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+article p {
+    text-align: justify;
+    line-height: 1.8em;
+    font-family: var(--font-padrao);
+}
+
+.pexterior {
+    text-indent: 30px;
+}
+
+strong {
+    color: var();
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 15px;
 }
