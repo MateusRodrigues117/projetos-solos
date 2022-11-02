@@ -29,7 +29,7 @@ position: relative;
 
     background-image: url(imagens/bdwallpaper3.jpg);
     background-size: cover;
-    background-position: right top;
+    background-position: center top;
 
 }
 
@@ -54,6 +54,16 @@ position: relative;
 
 #fabricantes p {
     margin-top: 15px;
+}
+
+.armaspequenas {
+
+    margin: 10px;
+    height: 120px;
+    width: 250px;
+
+    border: 2px var(--cor02) solid;
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.562);
 }
 
 header {
@@ -110,7 +120,7 @@ mark{
     text-indent: 30px;
 }
 
-strong {
+strong.principal {
     color: var(--cor04);
     font-size: 1.05em;
 }
