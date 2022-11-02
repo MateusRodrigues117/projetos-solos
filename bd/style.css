@@ -16,6 +16,24 @@
 
     --font-especial: 'Bebas Neue', cursive;
     --font-padrao: Arial, Helvetica, sans-serif;
+
+    --jakobs01: #60431D;
+    --jakobs02: #613418;
+
+    --torgue01: #2E148C;
+    --torgue02: #F21F0C;
+
+    --tediore01: #1B8C57;
+    --tediore02: #66D9A3;
+
+    --maliwan01: #e95c29;
+    --maliwan: #2E148C;
+
+    --vladof01: #D90404;
+ 
+    --dahl01: #13613c;
+
+
 }
 
 body {
@@ -125,10 +143,66 @@ strong.principal {
     font-size: 1.05em;
 }
 
+strong.naoproduz {
+    color: var(--cor01);
+}
+
 ul {
     list-style-type: none;
 }
 
 li {
     margin: 15px;
+}
+
+#jakobs {
+    padding: 3px;
+    color: white;
+    background-image: linear-gradient(to bottom, var(--jakobs01),var(--jakobs02));
+
+    border: 2px var(--jakobs02) solid;
+    border-radius: 5px;
+}
+
+#torgue {
+    padding: 3px;
+    color: white;
+    background-image: linear-gradient(to right, var(--torgue01), var(--torgue02)90%);
+    border: 2px var(--torgue01) solid;
+    border-radius: 5px;
+}
+
+#tediore {
+    padding: 3px;
+    color: white;
+    background-image: linear-gradient(to right, var(--tediore02), var(--tediore01));
+
+    border: 2px var(--tediore01) solid;
+    border-radius: 5px;
+}
+
+#maliwan {
+    padding: 3px;
+    color: white;
+    background-image: linear-gradient(to right, var(--maliwan), var(--maliwan01));
+
+    border: 2px var(--maliwan) solid;
+    border-radius: 5px;
+}
+
+#vladof {
+    padding: 3px;
+    color: var(--vladof01);
+   
+    border: 2px var(--vladof01) solid;
+    border-radius: 5px;
+}
+
+#dahl {
+    padding: 3px;
+    color: white;
+    color: var(--dahl01);
+
+    border: 2px var(--dahl01) solid;
+    border-radius: 5px;
 }
