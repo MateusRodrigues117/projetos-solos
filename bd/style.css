@@ -111,6 +111,10 @@ article p {
     text-indent: 30px;
 }
 
+p.ultimo {
+    padding-bottom: 30px;
+}
+
 mark{
     padding: 2px;
     border-radius: 5px;
@@ -127,6 +131,7 @@ strong.naoproduz {
 
 strong.empresas {
     padding: 3px;
+    margin-right: 5px;
     color: white;
     background-color: black;
     border-radius: 5px;
@@ -158,6 +163,78 @@ img.imagensdasfabricantes {
     width: 300px;
 
     display: block;
+}
+
+
+
+footer {
+    padding: 10px;
+    height: 50px;
+    color: white;
+    background-image: radial-gradient(circle, var(--cor04), var(--cor05));
+    text-align: center;
+    font-family: var(--font-padrao); 
+}
+
+footer > p {
+    padding-top: 20px;
+}
+
+#jakobs {
+    background-color: white;
+    color: brown;
+    border: 1px brown solid;
+}
+
+#torgue {
+    background-color: white;
+    color: blue;
+    border: 1px blue solid;
+}
+
+#tediore {
+    background-color: white;
+    color: rgb(122, 228, 122);
+    border: 1px rgb(122, 228, 122) solid;
+}
+
+#maliwan {
+    background-color: white;
+    color: rgb(255, 167, 4);
+    border: 1px rgb(255, 167, 4) solid;
+}
+
+#vladof {
+    background-color: white;
+    color: red;
+    border: 1px red solid;
+}
+
+#dahl {
+    background-color: white;
+    color: rgb(5, 110, 5);
+    border: 1px rgb(5, 110, 5) solid;
+}
+
+#hyperion {
+    background-color: white;
+    color: var(--cor02);
+    border: 1px var(--cor02) solid;
+}
+
+#atlas {
+    background-color: var(--cor04);
+    color: white;
+}
+
+#cov {
+    background-color: white;
+    color: black;
+}
+
+#bandit {
+    background-color: black;
+    color: orangered;
 }
 
 
