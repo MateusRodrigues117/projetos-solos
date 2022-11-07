@@ -50,6 +50,7 @@ header h1 {
     background-image: url(imagens/bdwallpaper3.jpg);
     background-size: cover;
     background-position: center top;
+    background-attachment: fixed;
 
 }
 
