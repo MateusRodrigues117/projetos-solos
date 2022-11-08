@@ -42,6 +42,8 @@ header strong {
 section {
     margin: auto;
     max-height: 800px;
+
+    background-color: rgba(0, 0, 0, 0.623);
 }
 
 article h1 {
@@ -196,7 +198,7 @@ section#tf2 {
     position: relative;
 
     background-image: url(imagens/tf2wallpaper.jpg);
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
     background-attachment: fixed;
 
