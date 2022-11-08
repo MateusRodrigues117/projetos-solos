@@ -39,6 +39,11 @@ header strong {
     color: var(--cor2);
 }
 
+section {
+    margin: auto;
+    max-height: 800px;
+}
+
 article h1 {
     padding: 10px 0px;
     width: 300px;
@@ -67,7 +72,7 @@ section#thewitcher3 {
     position: relative;
 
     background-image: url(imagens/thewitcher3wallpaper.png);
-    background-position: right top;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 
