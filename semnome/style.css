@@ -19,217 +19,91 @@
     --font2: 'Sriracha', cursive;
 }
 
-body {
-    background-color: rgba(0, 0, 0, 0.541);
+html, body {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.678);
+    font-family: var(--font0);
 }
 
-header {
-    height: 100px;
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-}
-
-header h1 {
-    padding: 10px 0px;
+header {    
+    padding-bottom: 20px;
+    background-image: radial-gradient(circle, var(--cor2), var(--cor1));
     color: white;
-    background-color: black;
-
     text-align: center;
-    font-size: 3em;
+}
+
+header > h1 {
+    background-color: black;
+    padding-top: 50px;
+    font-size: 10vw;
     font-variant: small-caps;
     font-family: var(--font1);
 }
 
-header strong {
+header > h1 > strong {
     color: var(--cor2);
+    font-weight: normal;
 }
 
-main {
-    margin: auto;
-    max-width: 2000px;
+header > p {
+    background-color: black;
+    padding-bottom: 40px;
 }
 
 section {
-    margin: auto;
-   
+    height: 1000px;
 
-    background-color: rgba(0, 0, 0, 0.623);
+    background-color: white;
+    line-height: 2em;
+    font-family: var(--font0);
 }
 
-article h1 {
-    padding: 10px 0px;
-    width: 300px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.603);
-    text-align: center;
-    font-size: 2.5em;
+aside {
+    padding: 10px;
+    height: 100px;
+    background-image: radial-gradient(circle, var(--cor2), var(--cor1));
+}
 
+section h1 {
+    padding: 10px 5px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
     font-family: var(--font2);
+    font-size: 2em;
     font-variant: small-caps;
 }
 
-article p {
-    padding: 10px;
+section p {
+    padding: 10px 5px;
+    max-width: 300px;
     background-color: white;
-    line-height: 1.5em;
-
-    font-family: var(--font0);
-
 }
 
-section#thewitcher3 {
-    height: 1000px;
-    width: ;
-
-    position: relative;
-
-    background-image: url(imagens/thewitcher3wallpaper.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size:  cover;
-    background-attachment: fixed;
-
-    border: 3px rgba(0, 0, 0, 0.466) solid;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
-}
-
-section#thewitcher3  h1 > strong {
-    color: var(--cor2);
-}
-
-/*article#thewitcher3 {
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    max-width: 300px;
-    border: 3px black solid;
-}*/
-
-section#mgs5 {
-    margin-top: 50px;
-    height: 1000px;
-
-    position: relative;
-
-    background-image: url(imagens/mgs5wallpaper.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-
-    border: 3px rgba(0, 0, 0, 0.61) solid;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    
-}
-
-section h1 > strong {
-    color: var(--cor2);
-}
-
-/*article#mgs5 {
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-
-    max-width: 300px;
-    border: 3px black solid;
-}*/
-
-section#borderlands2 {
-    margin-top: 50px;
-    height: 1000px;
-
-    position: relative;
-
-    background-image: url(imagens/bordelands2wallpaper.jpg);
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-
-    border: 3px rgba(0, 0, 0, 0.534) solid;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
-}
-
-section#borderlands2 h1 {
-    color: var(--cor3);
-}
-
-/*article#borderlands2 {
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-
-    max-width: 300px;
-    border: 3px black solid;
-}*/
-
-section#ghostrecon {
-    margin-top: 50px;
-    height: 1000px;
-
-    position: relative;
-
+section#grp {
+    /*background-color: rgba(0, 0, 0, 0.575);
     background-image: url(imagens/ghostreconphantomswallpaper.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-
-    border: 3px rgba(0, 0, 0, 0.534) solid;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
-}
-
-section#ghostrecon h1 > strong {
-    color: var(--cor2);
-}
-
-/*article#ghostrecon {
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-
-    max-width: 300px;
-    border: 3px black solid;
-}*/
-
-section#tf2 {
-    margin-top: 50px;
-    height: 1000px;
-
-    position: relative;
-
-    background-image: url(imagens/tf2wallpaper.jpg);
     background-position: center top;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 
-    border: 3px rgba(0, 0, 0, 0.534) solid;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+    background: black url(imagens/ghostreconphantomswallpaper.jpg) center top fixed;
+    background-size: cover;
+
+    position: relative;
 }
 
-section#tf2 h1 {
-    text-shadow: 3px 3px 3px brown;
-}
-
-/*article#tf2 {
+article#grp {
     position: absolute;
-
     top: 50%;
     left: 50%;
 
     transform: translate(-50%, -50%);
+}
 
-    max-width: 300px;
-    border: 3px black solid;
-}*/
+#grp > H1 > strong {
+    color: var(--cor2);
+}
 
 
