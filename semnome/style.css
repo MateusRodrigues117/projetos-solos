@@ -19,6 +19,10 @@
     --font2: 'Sriracha', cursive;
 }
 
+body {
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
 header {
     height: 100px;
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
@@ -39,9 +43,14 @@ header strong {
     color: var(--cor2);
 }
 
+main {
+    margin: auto;
+    max-width: 2000px;
+}
+
 section {
     margin: auto;
-    max-height: 800px;
+   
 
     background-color: rgba(0, 0, 0, 0.623);
 }
@@ -68,14 +77,15 @@ article p {
 }
 
 section#thewitcher3 {
-    height: 800px;
+    height: 1000px;
     width: ;
 
     position: relative;
 
     background-image: url(imagens/thewitcher3wallpaper.png);
     background-position: right center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:  cover;
     background-attachment: fixed;
 
     border: 3px rgba(0, 0, 0, 0.466) solid;
@@ -99,7 +109,7 @@ article#thewitcher3 {
 
 section#mgs5 {
     margin-top: 50px;
-    height: 800px;
+    height: 1000px;
 
     position: relative;
 
@@ -131,7 +141,7 @@ article#mgs5 {
 
 section#borderlands2 {
     margin-top: 50px;
-    height: 800px;
+    height: 1000px;
 
     position: relative;
 
@@ -162,7 +172,7 @@ article#borderlands2 {
 
 section#ghostrecon {
     margin-top: 50px;
-    height: 800px;
+    height: 1000px;
 
     position: relative;
 
@@ -193,7 +203,7 @@ article#ghostrecon {
 
 section#tf2 {
     margin-top: 50px;
-    height: 800px;
+    height: 1000px;
 
     position: relative;
 
