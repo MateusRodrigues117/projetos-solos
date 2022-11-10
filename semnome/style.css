@@ -19,7 +19,7 @@
     --font2: 'Sriracha', cursive;
 }
 
-html, body {
+body {
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.678);
     font-family: var(--font0);
@@ -58,12 +58,6 @@ section {
     font-family: var(--font0);
 }
 
-aside {
-    padding: 10px;
-    height: 100px;
-    background-image: radial-gradient(circle, var(--cor2), var(--cor1));
-}
-
 section h2 {
     padding: 10px 10px;
     width: 300px;
@@ -92,7 +86,7 @@ section#grp {
     background-size: cover;
     background-attachment: fixed;*/
 
-    background: black url(imagens/ghostreconphantomswallpaper.jpg) center top fixed;
+    background: rgba(0, 0, 0, 0.356) url(imagens/ghostreconphantomswallpaper.jpg) center top fixed;
     background-size: cover;
 
     position: relative;
@@ -110,4 +104,36 @@ article#grp {
     color: var(--cor2);
 }
 
+aside {
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.747);
+    
+}
 
+aside h3 {
+    padding: 30px 0px;
+    color: white;
+    font-family: var(--font0);
+    font-variant: small-caps;
+    text-align: center;
+}
+
+aside > h3 > strong {
+    color: var(--cor2);
+}
+
+div.video {
+    background-image: radial-gradient(circle, var(--cor2), var(--cor1));
+    margin: 10px 0px 30px 0px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
