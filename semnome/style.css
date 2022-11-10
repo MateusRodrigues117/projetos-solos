@@ -64,7 +64,7 @@ aside {
     background-image: radial-gradient(circle, var(--cor2), var(--cor1));
 }
 
-section h1 {
+section h2 {
     padding: 10px 10px;
     width: 300px;
     background-color: black;
@@ -106,7 +106,7 @@ article#grp {
     transform: translate(-50%, -50%);
 }
 
-#grp > H1 > strong {
+#grp > H2 > strong {
     color: var(--cor2);
 }
 
