@@ -108,7 +108,14 @@ article#grp {
 
 section#db {
     position: relative;
-    background-color: black;
+    /*background-image: url(imagens/dbwallpaper.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.541);*/
+    
+    background: rgba(0, 0, 0, 0.604) url(imagens/dbwallpaper.jpg) left top fixed;
+    background-size: cover;
 }
 
 article#db {
@@ -122,6 +129,8 @@ article#db {
 #db > h2 > strong {
     color: var(--cor3);
 }
+
+
 
 aside {
     margin: auto;
