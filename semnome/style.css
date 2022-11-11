@@ -57,7 +57,7 @@ section {
     line-height: 2em;
     font-family: var(--font0);
 
-    border: 2px var(--cor2) solid;
+    border: 2px solid var(--cor2) ;
 }
 
 section h2 {
