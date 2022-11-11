@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -17,6 +19,7 @@
     --font0: Verdana, Geneva, Tahoma, sans-serif;
     --font1: 'Passion One', cursive;
     --font2: 'Sriracha', cursive;
+    --font3wd: 'Share Tech Mono', monospace;
 }
 
 body {
@@ -81,6 +84,8 @@ section p {
     text-align: justify;   
 }
 
+/* Sessoes especificas ///////////////////////////////////////////////////////////////////////////////////////////// */
+
 section#grp {
     /*background-color: rgba(0, 0, 0, 0.575);
     background-image: url(imagens/ghostreconphantomswallpaper.jpg);
@@ -130,7 +135,31 @@ article#db {
     color: var(--cor3);
 }
 
+section#watchdogs {
+    position: relative;
 
+    background-color: rgba(0, 0, 0, 0.45);
+    background-image: url(imagens/watchdogswallpaper.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article#watchdogs {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+#watchdogs > h2 {
+    font-family: var(--font3wd);
+
+}
+
+/* Sessoes especificas fim ///////////////////////////////////////////////////////////////////////////////////////// */
 
 aside {
     margin: auto;
@@ -148,7 +177,7 @@ h3 {
     text-align: center;
 }
 
-aside > h3 > strong {
+h3 > strong {
     color: var(--cor2);
 }
 
