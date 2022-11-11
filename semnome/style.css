@@ -56,6 +56,8 @@ section {
     background-color: white;
     line-height: 2em;
     font-family: var(--font0);
+
+    border: 2px var(--cor2) solid;
 }
 
 section h2 {
@@ -104,6 +106,23 @@ article#grp {
     color: var(--cor2);
 }
 
+section#db {
+    position: relative;
+    background-color: black;
+}
+
+article#db {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform:translate(-50%, -50%)
+}
+
+#db > h2 > strong {
+    color: var(--cor3);
+}
+
 aside {
     margin: auto;
     max-width: 1000px;
@@ -111,8 +130,9 @@ aside {
     
 }
 
-aside h3 {
+h3 {
     padding: 30px 0px;
+    background-color: rgba(0, 0, 0, 0.59);
     color: white;
     font-family: var(--font0);
     font-variant: small-caps;
@@ -125,7 +145,6 @@ aside > h3 > strong {
 
 div.video {
     background-image: radial-gradient(circle, var(--cor2), var(--cor1));
-    margin: 10px 0px 30px 0px;
     padding-bottom: 56%;
     position: relative;
 }
