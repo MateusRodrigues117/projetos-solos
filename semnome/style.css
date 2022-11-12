@@ -64,17 +64,16 @@ section {
 }
 
 section h2 {
-    padding: 10px 10px;
+    padding: 15px 10px;
     width: 300px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.513);
     color: white;
     text-align: center;
     font-family: var(--font2);
     font-size: 2em;
     font-variant: small-caps;
 
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+   border-radius: 0px 10px;
 }
 
 section p {
@@ -101,10 +100,10 @@ section#grp {
 
 article#grp {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
 #grp > H2 > strong {
@@ -125,10 +124,10 @@ section#db {
 
 article#db {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
 
-    transform:translate(-50%, -50%)
+    transform:translate(-50%)
 }
 
 #db > h2 > strong {
@@ -148,15 +147,84 @@ section#watchdogs {
 article#watchdogs {
     position: absolute;
 
-    top: 50%;
+    top: 80%;
     left: 50%;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
 #watchdogs > h2 {
     font-family: var(--font3wd);
 
+}
+
+section#ascbd {
+    position: relative;
+
+    background-color: rgba(0, 0, 0, 0.593);
+    background-image: url(imagens/ascbrotherhood.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article#ascbd {
+    position: absolute;
+
+    top: 80%;
+    left: 50%;
+
+    transform: translate(-50%);
+}
+
+#ascbd > h2 > strong {
+    color: var(--cor2);
+}
+
+section#mgsv {
+    position: relative;
+
+    background-color: rgba(0, 0, 0, 0.645);
+    background-image: url(imagens/mgs5wallpaper.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article#mgsv {
+    position: absolute;
+
+    top: 80%;
+    left: 50%;
+
+    transform: translate(-50%);
+}
+
+#mgsv > h2 > strong {
+    color: var(--cor2);
+}
+
+section#crysis3 {
+    position: relative;
+
+    background-color: rgba(0, 0, 0, 0.497);
+    background-image: url(imagens/crysis3wallpaper.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article#crysis3 {
+    position: absolute;
+
+    top: 80%;
+    left: 50%;
+
+    transform: translate(-50%);
+}
+
+#crysis3 > h2 {
+    color: var(--cor2);
 }
 
 /* Sessoes especificas fim ///////////////////////////////////////////////////////////////////////////////////////// */
@@ -193,4 +261,16 @@ div.video > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+footer {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.609);
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 20px;
+    font-size: 1.5em;
 }
