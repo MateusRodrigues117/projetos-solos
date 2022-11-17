@@ -85,13 +85,7 @@ section p {
 
 /* Sessoes especificas ///////////////////////////////////////////////////////////////////////////////////////////// */
 
-section#grp {
-    /*background-color: rgba(0, 0, 0, 0.575);
-    background-image: url(imagens/ghostreconphantomswallpaper.jpg);
-    background-position: center top;
-    background-size: cover;
-    background-attachment: fixed;*/
-
+section#grp {                           /* <-- Ghost Recon Phantoms */
     background: rgba(0, 0, 0, 0.356) url(imagens/ghostreconphantomswallpaper.jpg) center top fixed;
     background-size: cover;
 
@@ -110,14 +104,8 @@ article#grp {
     color: var(--cor2);
 }
 
-section#db {
+section#db {                                /* <-- Dirty Bomb */
     position: relative;
-    /*background-image: url(imagens/dbwallpaper.jpg);
-    background-position: left top;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.541);*/
-    
     background: rgba(0, 0, 0, 0.604) url(imagens/dbwallpaper.jpg) left top fixed;
     background-size: cover;
 }
@@ -134,7 +122,7 @@ article#db {
     color: var(--cor3);
 }
 
-section#watchdogs {
+section#watchdogs {                          /* <-- Watch Dogs */
     position: relative;
 
     background-color: rgba(0, 0, 0, 0.45);
@@ -158,7 +146,7 @@ article#watchdogs {
 
 }
 
-section#ascbd {
+section#ascbd {                                 /* <-- Assasins Creed Brotherhood */
     position: relative;
 
     background-color: rgba(0, 0, 0, 0.593);
@@ -181,7 +169,7 @@ article#ascbd {
     color: var(--cor2);
 }
 
-section#mgsv {
+section#mgsv {                                      /* <-- Metal Gear Solid  V */
     position: relative;
 
     background-color: rgba(0, 0, 0, 0.645);
@@ -204,12 +192,12 @@ article#mgsv {
     color: var(--cor2);
 }
 
-section#crysis3 {
+section#crysis3 {                                           /* <-- CRYSIS 3 */
     position: relative;
 
     background-color: rgba(0, 0, 0, 0.497);
     background-image: url(imagens/crysis3wallpaper.jpg);
-    background-position: center center;
+    background-position: left center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -225,6 +213,59 @@ article#crysis3 {
 
 #crysis3 > h2 {
     color: var(--cor2);
+}
+
+section#nfs2012 {                                   /* <-- Need For Speed Most Wanted 2012 */
+    position: relative;
+
+    background: rgba(0, 0, 0, 0.64) url(imagens/nfs2012.jpg) right center fixed;
+    background-size: cover;
+}
+
+article#nfs2012 {
+    position: absolute;
+
+    top: 80%;
+    left: 50%;
+
+    transform: translate(-50%);
+}
+
+#nfs2012 > h2 > strong {
+    color: var(--cor2);
+}
+
+/* mais desenhados */
+
+section#bd2 {                                                      /* <-- Borderlands 2 */
+    background-color: rgba(0, 0, 0, 0.522);
+    background-image: url(imagens/bordelands2wallpaper.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#tf2 {                                                       /* <-- Team Fortress 2 */
+    position: relative;
+
+    background-color: rgba(0, 0, 0, 0.557);
+    background-image: url(imagens/TF2-HD-Wallpaper-Free-download.jpg);
+    background-position:right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article#tf2 {
+    position: absolute;
+
+    top: 80%;
+    left: 50%;
+
+    transform: translate(-50%);
+}
+
+#tf2 > h2 {
+    text-shadow: 2px 2px 6px brown;
 }
 
 /* Sessoes especificas fim ///////////////////////////////////////////////////////////////////////////////////////// */
