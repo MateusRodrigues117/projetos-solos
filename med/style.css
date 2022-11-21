@@ -24,14 +24,47 @@ body {
 header {
     height: 150px;
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
+
+    position: relative;
 }
 
 header h1 {
     padding-top: 20px;
     padding-left: 20px;
     color: white;
-    font-variant: small-caps;
     font-family: var(--fontespecial);
     font-weight: 300;
     font-size: 2.8em;
 }
+
+.quadrado {
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+
+    line-height: 1.6em;
+}
+
+#masterpiece {
+    background-image: radial-gradient(circle, var(--cor01), var(--cor02));
+
+    position: absolute;
+
+    top: 50%;
+    left: 15%;
+}
+
+.quadrado h2 {
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+    font-family: var(--fontespecial);
+    font-variant: small-caps;
+}
+
+.quadrado > section > a, p {
+   padding: 20px;
+   color: white;
+}
+
+
