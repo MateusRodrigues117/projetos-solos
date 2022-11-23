@@ -77,7 +77,7 @@ header h1 {
 }
 
 main {
-    max-width: 800px;
+    max-width: 900px;
 }
 
 /* especificas //////////////////////////////////////////////////////// */
@@ -117,10 +117,10 @@ section.lyrics p {
 aside {
     background-image: linear-gradient(to right, var(--cor02),var(--cor01));
 
-    width: 600px;
-    height: 350px;
+    width: 450px;
+    height: 250px;
 
-    margin-left: 18vw;
+    margin: auto;
     
     border-radius: 0px 10px;
 }
@@ -135,8 +135,8 @@ div.video > iframe {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
 
     transform: translate(-50%, -50%);
 }
@@ -145,6 +145,39 @@ div.separa {
     margin-top: 20px;
     height: 25px;
     background-color: black;
+}
+
+
+section.lista {
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
+    color: white;
+    height: 300px;
+    padding: 10px;
+}
+
+.lista h2 {
+    margin: -10px;
+    padding: 10px 0px 10px 40px;
+    background-color: #610c1d;
+
+    font-family: var(--font2);
+    font-variant: small-caps;
+}
+
+.lista ol {
+    padding:  40px 0px 0px 20px;
+    list-style-position: inside;
+    columns: 2;
+}
+
+.lista ol > nav > li {
+    line-height: 1.8em;
+    width: 300px;
+    padding-left: 5px;
+
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
 }
 
 footer {
