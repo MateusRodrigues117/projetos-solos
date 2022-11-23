@@ -15,7 +15,7 @@
 :root {
         --cor01: #DC143C;
         --cor02: #610c1d;
-        --cor03: #E8153F;
+        --cor03: #f30a39;
 
         --font1: 'Passion One', cursive;
         --font2: 'Sriracha', cursive;
@@ -39,16 +39,18 @@ header {
 }
 
 header h1 {
-
-
-    padding-top: 20px;
-    padding-left: 20px;
+    margin: auto;
+    padding: 20px;
+    width:250px;
     color: white;
     font-family: var(--fontespecial);
-    font-weight: 300;
+    font-variant: small-caps;
+    font-weight: 400;
     font-size: 3.3em;
 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.193);
 
+    
 }
 
 .quadrado {
@@ -74,6 +76,10 @@ header h1 {
    color: white;
 }
 
+main {
+    max-width: 800px;
+}
+
 /* especificas //////////////////////////////////////////////////////// */
 
 #masterpiece {
@@ -85,13 +91,16 @@ header h1 {
     left: 18%;
 }
 
+/* especificas fim //////////////////////////////////////////////////////// */
 
 
 
 
 section.lyrics {
     margin-top: 70px;
-    margin-left: 210px;  
+    margin-left: 18vw;
+
+
 }
 
 section.lyrics p {
@@ -105,7 +114,35 @@ section.lyrics p {
     line-height: 1.9em;
 }
 
+aside {
+    background-image: linear-gradient(to right, var(--cor02),var(--cor01));
+
+    width: 600px;
+    height: 350px;
+
+    margin-left: 18vw;
+    
+    border-radius: 0px 10px;
+}
+
+div.video {
+    background-image: radial-gradient(circle, var(--cor2), var(--cor1));
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+
+    transform: translate(-50%, -50%);
+}
+
 div.separa {
+    margin-top: 20px;
     height: 25px;
     background-color: black;
 }
