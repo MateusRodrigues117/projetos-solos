@@ -165,6 +165,7 @@ section.lista {
 }
 
 .lista ol {
+    max-width: 1000px;
     padding:  40px 0px 0px 20px;
     list-style-position: inside;
     columns: 2;
