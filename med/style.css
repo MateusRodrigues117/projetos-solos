@@ -139,6 +139,8 @@ div.video > iframe {
     height: 90%;
 
     transform: translate(-50%, -50%);
+
+    border-radius: 0px 10px;
 }
 
 div.separa {
