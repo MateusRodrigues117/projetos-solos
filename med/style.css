@@ -80,9 +80,9 @@ main {
     max-width: 900px;
 }
 
-/* especificas //////////////////////////////////////////////////////// */
+/* musica //////////////////////////////////////////////////////// */
 
-#masterpiece {
+#musica {
     background-image: radial-gradient(circle, var(--cor01), var(--cor02));
 
     position: absolute;
@@ -91,7 +91,7 @@ main {
     left: 18%;
 }
 
-/* especificas fim //////////////////////////////////////////////////////// */
+/* fim //////////////////////////////////////////////////////// */
 
 
 
@@ -151,7 +151,7 @@ div.separa {
 section.lista {
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
     color: white;
-    height: 300px;
+    height: 400px;
     padding: 10px;
 }
 
@@ -166,19 +166,34 @@ section.lista {
 
 .lista ol {
     max-width: 1000px;
-    padding:  40px 0px 0px 20px;
+    padding:  50px 0px 0px 20px;
     list-style-position: inside;
     columns: 2;
 }
 
-.lista ol > nav > li {
-    line-height: 1.8em;
+.lista ol > nav > li  {
+    line-height: 1.9em;
     width: 300px;
     padding-left: 5px;
 
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 
+}
+
+ol a {
+    padding: 2px 5px;
+    text-decoration: underline;
+    color: white;
+
+    border-radius: 0px 5px;
+}
+
+li > a:hover {
+    background-image: linear-gradient(to right, var(--cor02), var(--cor03));
+    text-decoration: none;
+
+    font-style: italic;
 }
 
 footer {
