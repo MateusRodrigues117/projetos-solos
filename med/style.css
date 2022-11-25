@@ -77,7 +77,7 @@ header h1 {
 }
 
 main {
-    max-width: 900px;
+
 }
 
 /* musica //////////////////////////////////////////////////////// */
@@ -88,7 +88,7 @@ main {
     position: absolute;
 
     top: 50%;
-    left: 18%;
+    left: 16%;
 }
 
 /* fim //////////////////////////////////////////////////////// */
@@ -98,13 +98,13 @@ main {
 
 section.lyrics {
     margin-top: 70px;
-    margin-left: 18vw;
+    margin-left: 16vw;
 
 
 }
 
 section.lyrics p {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: black;
 
     font-size: 1.2em;
@@ -114,19 +114,23 @@ section.lyrics p {
     line-height: 1.9em;
 }
 
-aside {
-    background-image: linear-gradient(to right, var(--cor02),var(--cor01));
+section.video {
+   padding: 20px;
+    background-image: linear-gradient(to right, var(--cor01), var(--cor02));
 
+}
+
+aside {
     width: 450px;
     height: 250px;
-
-    margin: auto;
+    margin:auto;
+    background-image: linear-gradient(to left, var(--cor01), var(--cor02));
+    border: 1px solid black;
     
     border-radius: 0px 10px;
 }
 
 div.video {
-    background-image: radial-gradient(circle, var(--cor2), var(--cor1));
     padding-bottom: 56%;
     position: relative;
 }
@@ -144,60 +148,51 @@ div.video > iframe {
 }
 
 div.separa {
-    margin-top: 20px;
+
     height: 25px;
     background-color: black;
 }
 
-
 section.lista {
-    background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
-    color: white;
-    height: 400px;
+    background-image: linear-gradient(to right, var(--cor01), var(--cor02));
+}
+
+section.lista > div {
+    max-width: 550px;
+    margin: auto;
+
+}
+
+section.lista > div > h2 {
+   
     padding: 10px;
-}
-
-.lista h2 {
-    margin: -10px;
-    padding: 10px 0px 10px 40px;
-    background-color: #610c1d;
-
+    color: white;
+    background-color: var(--cor02);
+    text-align: center;
     font-family: var(--font2);
-    font-variant: small-caps;
 }
 
-.lista ol {
-    max-width: 500px;
-    padding:  50px 20px 0px 20px;
+section.lista ol {
+    padding: 30px;
+    color: white;
+    line-height: 2em;
     list-style-position: inside;
     columns: 2;
-}
 
-.lista ol > nav > li  {
-    line-height: 1.9em;
-    width: 220px;
-    padding-left: 5px;
-
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
 
 }
 
-ol a {
-    padding: 2px 5px;
-    text-decoration: underline;
+section.lista > div > nav > ol > li > a {
+    padding: 5px;
     color: white;
-
-    border-radius: 0px 5px;
 }
 
-li > a:hover {
-    background-image: linear-gradient(to right, var(--cor02), var(--cor03));
+section.lista > div > nav > ol > li > a:hover {
+    background-image: linear-gradient(to right, var(--cor01), var(--cor02));
     text-decoration: none;
 
-    font-style: italic;
 }
 
 footer {
-    background-color: var(--cor01);
+    background-color: var(--cor02);
 }
