@@ -163,13 +163,16 @@ section.lista > div {
 
 }
 
-section.lista > div > h2 {
+section.lista > div > nav > h2 {
    
     padding: 10px;
     color: white;
-    background-color: var(--cor02);
+ 
     text-align: center;
-    font-family: var(--font2);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.508);
+    font-size: 1.6em;
+    font-family: var(--fontespecial);
+    font-variant: small-caps;
 }
 
 section.lista ol {
