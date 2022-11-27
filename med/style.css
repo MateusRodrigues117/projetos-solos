@@ -121,8 +121,8 @@ section.video {
 }
 
 aside {
-    width: 450px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
     margin:auto;
     background-image: linear-gradient(to left, var(--cor01), var(--cor02));
     border: 1px solid black;
@@ -139,8 +139,8 @@ div.video > iframe {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
 
     transform: translate(-50%, -50%);
 
